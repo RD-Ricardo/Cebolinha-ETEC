@@ -11,7 +11,7 @@ namespace Cebolinha
             Console.WriteLine("---------");
             Console.WriteLine("Digite um frase");
             frase =  Console.ReadLine();
-            frase = frase.Replace("r" , "l" );
+            frase = frase.Replace("rr","l").Replace("rR","l").Replace("RR","L").Replace("Rr","L").Replace("r","l").Replace("R","L");
             Console.WriteLine(frase);            
 
         }
